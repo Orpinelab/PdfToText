@@ -1,0 +1,21 @@
+{
+    "name": "orpine/pdftotext",
+    "description": "Extract text from a pdf document",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shankar Manamalkav",
+            "email": "shankar@orpine.com"
+        }
+    ],
+    "minimum-stability": "dev",
+     "autoload": {
+         "psr-4": {
+             "orpine\\pdftotext\\": "src"
+         }
+     },
+    "require": {
+         "php": ">=5.6.0",
+         "symfony/process": "^3.4"
+     }
+}
